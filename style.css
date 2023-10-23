@@ -1,7 +1,38 @@
-/* style.css */
 
-body {
-
-   background-color: black;
-   color: white; 
+.taskbar{
+    background-color: white;
+    overflow: hidden;
 }
+.taskbar a{
+    float:left;
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.title {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+ .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    background-color: black;
+   }
+   
+   img {
+     max-width: 50%;
+     max-height:50%;
+     
+   }
+   
+   .text {
+     font-size: 20px;
+     color: white;
+   }
