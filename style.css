@@ -1,38 +1,74 @@
 
-.taskbar{
-    background-color: white;
-    overflow: hidden;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.taskbar a{
-    float:left;
-    display: block;
-    color: black;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
+
+.taskbar {
+  background-color: #fcfcfc;
+  padding: 10px;
+  text-align: Left;
+  color: #000000;
 }
-.title {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+
+.taskbar a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
 }
- .container {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    background-color: black;
-   }
-   
-   img {
-     max-width: 50%;
-     max-height:50%;
-     
-   }
-   
-   .text {
-     font-size: 20px;
-     color: white;
-   }
+
+.taskbar img {
+  vertical-align: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.Login {
+  background-color: #fcfcfc;
+  padding: 10px;
+  text-align: right;
+  color: #000000;
+}
+
+.Login a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.textbox {
+  position: relative;
+  width: 375px;
+  color: #ccc;
+font-size: 25px;
+}
+
+.textbox input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 160px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+
+.video {
+  width: 65%;
+}
+
+.text {
+  position: center;
+  
+  float: center ;
+  color: #000000;
+font-size: 25px;
+}
